@@ -1,0 +1,119 @@
+
+#results ,#weight-guide{
+  font-family:Cursive ;
+  font: lighter;
+}
+@media only screen and (min-width: 768px){
+  .container {
+      min-width: 10px;
+      height: 754px;
+      max-width: 100%;
+      background-color: #cccbd9;
+      padding-left: 30px;
+      text-align: center;
+      font-size: large;
+      border: 14px solid #aaa;
+  }
+  #height,
+  #weight,#userName {
+    width: 250px;
+    height: 25px;
+    margin-top: 50px;
+    border: 2px solid #010511d2;
+    padding: 10px 80px;
+    background-color: rgb(255, 247, 247);
+    margin-left:80px ; 
+    border-radius: 1ex;
+  }
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
+    width: 154px;
+    height: 35px;
+    margin-left: 55px;
+    margin-top: 53px;
+    background-color: #fff;
+    padding: 0px 10px;
+    border-radius: 8px;
+    color: #c3cfcb;
+    text-decoration: none;
+    border: 2px solid #d6e0dc;
+    font-size: 23px;
+    background-color: #3e64cee5;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .container {
+    min-width: 10px;
+    height: 650px;
+    max-width: 100%;
+    background-color: rgba(33, 162, 191, 0.396);;
+    padding-left: 30px;
+    text-align: center;
+    font-size: large;
+    border: 11px solid rgba(250, 247, 247, 0.979);
+    color: rgb(8, 12, 12);
+}
+  #height,
+  #weight,#userName {
+    width: 120px;
+    height: 25px;
+    margin-top: 50px;
+    border: 3px solid rgb(59, 69, 71);
+    padding: 0px 10px;
+    background-color:#fff;;
+    margin-left:80px ;
+    color: #2885bbea; 
+    border-radius: 1ex;
+  }
+  #weight-guide {
+    text-align: center;
+    font-size: small;
+  }
+  
+  #results {
+     text-align: center;
+    font-size: medium;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
+    width: 100px;
+    height: 35px;
+    margin-left: -15px;
+    margin-top: 34px;
+    padding: 0px 15px;
+    border-radius: 8px;
+    color: #000000;
+    text-decoration: none;
+    border: 3px solid #1b1e1d;
+    font-size: 15px;
+    background-color: #f9f4f4;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    font-family: Monospace;
+    
+  }
+  
+
+}
