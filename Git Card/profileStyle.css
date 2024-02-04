@@ -179,7 +179,7 @@ top: 200px;
     filter: blur(2px);
 }
 
-.mainDetail:hover{
+.mainDetail:hover,.mainDetail:active{
     background-color: #5791ff;;
     filter: blur(0px);
 }
