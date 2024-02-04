@@ -31,6 +31,10 @@ function openSearchedUser() {
 function editGitHub() {
     window.location.href = `https://github.com/login`;
 }
+
+function toggleHover(element) {
+   element.classList.toggle('hover');
+}
     </script>
 </head>
 <body>
@@ -48,10 +52,10 @@ function editGitHub() {
         </div>
         <div class="userDetail">
             <h4 class="name">Pragyesh</h4>
-            <button class="follow" onclick="OpenPopUp()">+Follow</button>
+            <button class="follow" onclick="OpenPopUp()" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)" >+Follow</button>
             <h5 class="Address">Hardoi India</h5>
             
-            <div class="mainDetail">
+            <div class="mainDetail" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)">
                 <div class="stats">
                     <h6 class="label">Followers</h6>
                     <span class="followersvalue">8,797</span>
@@ -119,6 +123,8 @@ function editGitHub() {
    const span = document.createElement('h5')
    span.className ="login Address"
    span.setAttribute("onclick","editGitHub()")
+   span.setAttribute("ontouchstart","toggleHover(this)")
+   span.setAttribute("ontouchend","toggleHover(this)")    
    span.innerHTML ="Add Address 🏠"
    Address.replaceWith(span);
     
