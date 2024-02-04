@@ -90,6 +90,11 @@
       margin-left: 40px;
       border: 2px solid grey;
     }
+ #img:hover{
+      padding: -40px;
+      width: 250px;
+      height: 250px;
+    }
     }
     @media only screen and (max-width :900px) {
       * {
@@ -162,6 +167,11 @@
           margin-top: -150px;
           border: 3px solid grey;
         }
+  #img:hover{
+      padding: -40px;
+      width: 200px;
+      height: 200px;
+       }
       }
       
 
