@@ -8,3 +8,9 @@ project.forEach((value)=>{
         alert('Coming Soon..')   
     },false)
 })
+function toggleHover(element) {
+    element.classList.toggle('hover');
+}
+document.querySelector('#counter').addEventListener('click' ,function(event){
+    event.preventDefault();
+},false)
