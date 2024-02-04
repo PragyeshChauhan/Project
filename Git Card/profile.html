@@ -75,10 +75,10 @@ function toggleHover(element) {
      <div id="PopUp">
 
     <div class="pop-content">
-        <img id="cross" src="./image/cross-23.png" alt="cross" onclick="closePopUp()">
-        <img id = "user" src="./image/userName.png" alt="User">
+        <img id="cross" src="./image/cross-23.png" alt="cross" onclick="closePopUp()" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)>
+        <img id = "user" src="./image/userName.png" alt="User" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)>
         <input id="SearchUser" type="text" placeholder="Search User" required >
-        <button class ="follow Search"type="button" onclick="openSearchedUser()">Search</button>
+        <button class ="follow Search"type="button" onclick="openSearchedUser()" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)>Search</button>
         
      </div>
     
