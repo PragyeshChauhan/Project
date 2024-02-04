@@ -18,6 +18,9 @@
           function signUP() {
                   window.location.href = `https://github.com/join`;
                  }
+	    function toggleHover(element) {
+               element.classList.toggle('hover');
+             }
 	</script>
 </head>
 <body>
@@ -31,17 +34,17 @@
         <form id="Git UserForm">
             <h1>Create Your Git Card 🎴</h1>
             <input id ="userName"type="text" placeholder="pragyeshchauhan" required>
-            <button type="button" class="button">Create</button>
+            <button type="button" class="button" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)">Create</button>
         </form>
     </div>
 
     <div class="popMessage">
        <div class="popcontent">
-       <img src="./image/cross-23.png" alt="" onclick="closePopUp()">
+       <img src="./image/cross-23.png" alt="" onclick="closePopUp()" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)">
        <h1>You Dont have Account</h1>
        <h3>DO you want to SignUp  ?</h3>
-       <button class="no" onclick="closePopUp()">❌</button>
-       <button class="yes" onclick="signUP()">✅</button>
+       <button class="no" onclick="closePopUp()" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)">❌</button>
+       <button class="yes" onclick="signUP()" ontouchstart="toggleHover(this)" ontouchend="toggleHover(this)">✅</button>
        </div>
        
     </div>
